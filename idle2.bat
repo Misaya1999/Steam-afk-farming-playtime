@@ -1,0 +1,6 @@
+start steam-idle.exe 570
+start steam-idle.exe 521200
+start steam-idle.exe 550
+start steam-idle.exe 648800
+start steam-idle.exe 265610
+start steam-idle.exe 1203220

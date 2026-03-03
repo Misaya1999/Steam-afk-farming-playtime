@@ -1,0 +1,347 @@
+﻿30/12/2025 5:28:10 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+30/12/2025 5:28:10 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+30/12/2025 5:28:14 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+30/12/2025 5:28:14 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+30/12/2025 5:28:18 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+30/12/2025 5:28:18 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+30/12/2025 5:28:22 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+30/12/2025 5:28:22 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 1:39:37 PM   
+System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at IdleMasterExtended.frmMain.GetLatestVersion()
+   at IdleMasterExtended.frmMain.frmMain_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+13/01/2026 4:31:19 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:19 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752/badges/?p=1
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:31:25 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:25 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752/badges/?p=1
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:31:31 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:31 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752/badges/?p=1
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:31:37 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:37 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752/badges/?p=1
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:31:37 PM   Badge -> LoadBadgesAsync, for profile = https://steamcommunity.com/profiles/76561198436156752
+System.Exception: Response is null or empty. Added (+1) to RetryCount
+   at IdleMasterExtended.frmMain.CheckIfResponseIsNullWithRetryCount(String response)
+   at IdleMasterExtended.frmMain.<GetBadgePageAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.frmMain.<LoadBadgesAsync>d__22.MoveNext()
+13/01/2026 4:31:53 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:53 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:31:59 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:31:59 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:32:05 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:32:05 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:32:11 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:32:11 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:02 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:02 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:02 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:02 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:06 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:06 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:06 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:06 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:10 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:10 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:10 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:10 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:14 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:14 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
+13/01/2026 4:40:14 PM   CookieClient -> WebResponse = System.Net.HttpWebRequest
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at IdleMasterExtended.CookieClient.GetWebResponse(WebRequest request, IAsyncResult result)
+13/01/2026 4:40:14 PM   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561198436156752
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdleMasterExtended.CookieClient.<GetHttpAsync>d__3.MoveNext()
